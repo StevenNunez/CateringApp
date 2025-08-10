@@ -25,7 +25,7 @@ function Home() {
 
         <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center text-center">
           <img
-            src="/public/ceviche-peruano.jpg"
+            src="/landin.jpg"
             alt="Delicious catered food spread"
             className="absolute inset-0 w-full h-full object-cover"
             onError={(e) => (e.target.src = 'https://placehold.co/1200x800?text=Catering')}
